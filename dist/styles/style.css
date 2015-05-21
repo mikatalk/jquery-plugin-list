@@ -1,0 +1,120 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #3A3A4D;
+  padding: 25px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  color: #efefef;
+  font-weight: normal;
+  font-weight: 300;
+  margin: 30px auto;
+}
+h1 a,
+h2 a {
+  color: #efefef;
+  border-bottom: 2px solid #efefef;
+  text-decoration: none;
+  padding-bottom: 3px;
+}
+h1 a:hover,
+h2 a:hover {
+  color: #2E2E3D;
+  border-color: #2E2E3D;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+button {
+  padding: 12px 30px;
+  box-shadow: none;
+  border: none;
+  color: #efefef;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.35);
+  color: #2E2E3D;
+}
+button:focus {
+  outline: none;
+}
+
+main hr {
+  border: 1px solid transparent;
+}
+
+pre {
+  display: block;
+  float: left;
+  width: 100%;
+  background: #9c9ca1;
+  padding: 20px;
+}
+
+p, a {
+  font-weight: 100;
+  color: #efefef;
+  text-align: center;
+  /*  text-decoration:none; */
+}
+
+i:before, i:before {
+  font-size: 20px;
+  position: absolute;
+  line-height: 0px;
+}
+
+.list {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 250px;
+  width: 90%;
+  width: auto;
+  position: relative;
+  display: block;
+  margin: 0px;
+  display: block;
+  float: left;
+  position: relative;
+  margin-top: 20px;
+  min-height: 40px;
+}
+
+.tile {
+  display: block;
+  position: absolute;
+  background-color: #2E2E3D;
+  color: #3A3A4D;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.layout {
+  color: #efefef;
+  margin-bottom: 15px;
+}
+.layout label {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.layout label:hover {
+  color: #2E2E3D;
+}
+.layout input {
+  margin-right: 3px;
+}
