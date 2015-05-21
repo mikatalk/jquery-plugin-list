@@ -98,7 +98,7 @@ i:before, i:before {
 .tile {
   display: block;
   position: absolute;
-  background-color: #2E2E3D;
+  background-color: #EFEFEF;
   color: #3A3A4D;
   padding: 5px;
   font-weight: bold;
